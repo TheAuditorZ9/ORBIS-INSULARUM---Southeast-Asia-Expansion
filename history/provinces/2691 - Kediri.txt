@@ -1,6 +1,7 @@
 # Kediri
 # 2691 Kediri - 5/16/2025 12:37:50 PM 
 add_core = MAJ
+add_core = MTR
 owner = MAJ
 controller = MAJ
 base_tax = 7
@@ -8,7 +9,7 @@ base_production = 7
 base_manpower = 3
 trade_goods = spices
 culture = javanese
-religion = hinduism
+religion = kejawen
 capital = "Kediri"
 is_city = yes
 discovered_by = chinese

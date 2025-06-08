@@ -8,7 +8,7 @@ base_production = 3
 base_manpower = 3
 trade_goods = spices
 culture = flores
-religion = animism
+religion = marapu
 capital = "Flores"
 discovered_by = chinese
 1512.1.1 = { 
@@ -29,8 +29,6 @@ discovered_by = chinese
 	owner = ---
 	controller = ---
 	remove_core = POR
-	culture = papuan
-	religion = animism
 	trade_goods = unknown
 }
 1616.1.1 = { 
