@@ -2663,12 +2663,54 @@ pagan = {
 			tolerance_heathen = 3
 		}
 		can_have_secondary_religion = yes
-		heretic = { TULUMANON KABUNIST MALYARI }
+		heretic = { SNAKE_CLAN }
+	}
+
+	kabunist = {
+		color = { 255 51 0 }
+		icon = 42
+		country = {
+			tolerance_own = 1
+			global_unrest = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			global_tax_modifier = 0.03
+		}
+		heretic = { SNAKE_CLAN }
+	}
+
+	malyari = {
+		color = { 255 102 0 }
+		icon = 43
+		country = {
+			tolerance_own = 2
+			war_exhaustion = -0.01
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			loot_amount = 0.3
+		}
+		heretic = { SNAKE_CLAN }
+	}
+
+	tulumanon = {
+		color = { 153 0 0 }
+		icon = 44
+		country = {
+			tolerance_own = 1
+			defensiveness = 0.05
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			global_unrest = -0.5
+		}	
+		heretic = { SNAKE_CLAN }
 	}
 
 	penunggu = { #Papuan Faith
 		color = { 64 64 64 }
-		icon = 42
+		icon = 45
 		country = {
 			morale_damage = 0.1
 			war_exhaustion = -0.05
@@ -2682,7 +2724,7 @@ pagan = {
 
 	kapua = { #Mollucan Faith
 		color = { 212 208 17 }
-		icon = 43
+		icon = 46
 		country = {
 			range = 0.5
 			global_trade_goods_size_modifier = 0.15
@@ -2696,7 +2738,7 @@ pagan = {
 
 	marapu = { #Nusa Tenggara Faith
 		color = { 59 31 27 }
-		icon = 44
+		icon = 47
 		country = {
 			global_monthly_devastation = -0.02
 			same_culture_advisor_cost = -0.15
@@ -2710,7 +2752,7 @@ pagan = {
 
 	satsana = { #Tai Faith
 		color = { 215 255 173 }
-		icon = 45
+		icon = 48
 		country = {
 			tolerance_own = 2
 			stability_cost_modifier = -0.05
@@ -2724,7 +2766,7 @@ pagan = {
 
 	natkowe = { #Burmese
 		color = { 255 190 173 }
-		icon = 46
+		icon = 49
 		country = {
 			tolerance_own = 1
 			advisor_cost = -0.05
