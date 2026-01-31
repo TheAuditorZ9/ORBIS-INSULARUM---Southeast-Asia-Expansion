@@ -1,7 +1,7 @@
 # Paser
 # 4800 Paser - 5/16/2025 12:37:50 PM 
 add_core = NDP
-add_core = NDP
+add_core = BNJ
 owner = NDP
 controller = NDP
 base_tax = 2
@@ -22,6 +22,11 @@ discovered_by = ottoman
 1444.1.1 = { 
 	owner = NDP
 	controller = NDP
+	trade_goods = spices
+}
+1520.1.1 = { 
+	owner = BNJ
+	controller = BNJ
 	trade_goods = spices
 }
 1521.1.1 = { 
