@@ -34,3 +34,9 @@ historical_rival = JMB
 		regent = yes
 	}
 }
+
+1600.1.1 = { 
+	religion = sunni
+	religious_school = shafii_school
+	add_piety = -0.10
+}
