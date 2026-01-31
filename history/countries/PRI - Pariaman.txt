@@ -8,3 +8,9 @@ technology_group = chinese
 capital = 2682# Pariaman
 
 #PE with Pagaruyung
+
+1600.1.1 = { 
+	religion = sunni
+	religious_school = shafii_school
+	add_piety = -0.10
+}
